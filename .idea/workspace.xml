@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c3c5c1f-c1d7-4ae8-a129-71ae5d99d0e2" name="Default Changelist" comment="" />
+    <list default="true" id="6c3c5c1f-c1d7-4ae8-a129-71ae5d99d0e2" name="Default Changelist" comment="2nd commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BusinessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BusinessPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeDashboardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EmployeeDashboardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Retry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/SeleniumUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +31,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1WctUwNisnmd3veShSsoOoUEY2s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +50,87 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="TestNG.BusinessPageTest">
+    <configuration name="BusinessPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="io.bank.capitalone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BusinessPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessPageTest.virifyBusinessPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="io.bank.capitalone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BusinessPageTest" />
+      <option name="METHOD_NAME" value="virifyBusinessPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="io.bank.capitalone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyHomeTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="io.bank.capitalone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyHomeTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BusinessPageTest" />
+        <item itemvalue="TestNG.BusinessPageTest.virifyBusinessPage" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.verifyHomeTitle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,5 +156,43 @@
       <updated>1579460729714</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1166" height="651" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579551075678">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="100" y="123" width="1166" height="651" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.852@0.23.1440.852" timestamp="1579551075678" />
+    <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579549451243">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.852@0.23.1440.852" timestamp="1579549451243" />
+    <state x="301" y="53" key="CommitChangelistDialog2" timestamp="1579464125609">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="301" y="53" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1579464125609" />
+    <state width="1324" height="222" key="GridCell.Tab.0.bottom" timestamp="1579554591753">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1324" height="222" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1579554591753" />
+    <state width="1324" height="222" key="GridCell.Tab.0.center" timestamp="1579554591752">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1324" height="222" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1579554591752" />
+    <state width="1324" height="222" key="GridCell.Tab.0.left" timestamp="1579554591752">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1324" height="222" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1579554591752" />
+    <state width="1324" height="222" key="GridCell.Tab.0.right" timestamp="1579554591753">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1324" height="222" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1579554591753" />
+    <state x="89" y="112" key="Maven.ArtifactSearchDialog" timestamp="1579465442312">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="89" y="112" key="Maven.ArtifactSearchDialog/0.23.1440.852@0.23.1440.852" timestamp="1579465442312" />
   </component>
 </project>
