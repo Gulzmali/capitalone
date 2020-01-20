@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3c5c1f-c1d7-4ae8-a129-71ae5d99d0e2" name="Default Changelist" comment="2nd commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BusinessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BusinessPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeDashboardTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EmployeeDashboardTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Retry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/SeleniumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SighnInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SighnInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SighnInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SighnInPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BusinessPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BusinessPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.BusinessPageTest">
+  <component name="RunManager" selected="TestNG.SighnInPageTest">
     <configuration name="BusinessPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="io.bank.capitalone" />
       <extension name="coverage">
@@ -105,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.verifyHomeTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SighnInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="io.bank.capitalone" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +102,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
-      <option name="METHOD_NAME" value="verifyHomeTitle" />
+      <option name="MAIN_CLASS_NAME" value="tests.SighnInPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SighnInPageTest.virifySignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="io.bank.capitalone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SighnInPageTest" />
+      <option name="METHOD_NAME" value="virifySignIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,10 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SighnInPageTest" />
+        <item itemvalue="TestNG.SighnInPageTest.virifySignIn" />
         <item itemvalue="TestNG.BusinessPageTest" />
         <item itemvalue="TestNG.BusinessPageTest.virifyBusinessPage" />
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.verifyHomeTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -174,25 +180,41 @@
       <screen x="0" y="23" width="1440" height="852" />
     </state>
     <state x="301" y="53" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1579464125609" />
-    <state width="1324" height="222" key="GridCell.Tab.0.bottom" timestamp="1579554591753">
+    <state width="1324" height="222" key="GridCell.Tab.0.bottom" timestamp="1579557151440">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1324" height="222" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1579554591753" />
-    <state width="1324" height="222" key="GridCell.Tab.0.center" timestamp="1579554591752">
+    <state width="1324" height="222" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1579557151440" />
+    <state width="1324" height="222" key="GridCell.Tab.0.center" timestamp="1579557151438">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1324" height="222" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1579554591752" />
-    <state width="1324" height="222" key="GridCell.Tab.0.left" timestamp="1579554591752">
+    <state width="1324" height="222" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1579557151438" />
+    <state width="1324" height="222" key="GridCell.Tab.0.left" timestamp="1579557151438">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1324" height="222" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1579554591752" />
-    <state width="1324" height="222" key="GridCell.Tab.0.right" timestamp="1579554591753">
+    <state width="1324" height="222" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1579557151438" />
+    <state width="1324" height="222" key="GridCell.Tab.0.right" timestamp="1579557151438">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1324" height="222" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1579554591753" />
+    <state width="1324" height="222" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1579557151438" />
     <state x="89" y="112" key="Maven.ArtifactSearchDialog" timestamp="1579465442312">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
     <state x="89" y="112" key="Maven.ArtifactSearchDialog/0.23.1440.852@0.23.1440.852" timestamp="1579465442312" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/SighnInPage.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/SighnInPage.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
